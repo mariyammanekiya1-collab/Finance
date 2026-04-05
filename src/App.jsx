@@ -8,7 +8,7 @@ export default function App() {
   const [role, setRole] = useState("viewer");
   const [search, setSearch] = useState("");
 
-  //  Static data (refresh पर वापस आएगा)
+  //  Static data 
   const [transactions, setTransactions] = useState([
   { id: 1, date: "Apr 1", category: "Food", amount: -500, type: "expense" },
   { id: 2, date: "Apr 2", category: "Salary", amount: 15000, type: "income" },
